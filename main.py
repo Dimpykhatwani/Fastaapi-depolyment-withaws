@@ -33,10 +33,10 @@ class Text(BaseModel):
     text: str
 
 # AWS S3 configuration
-AWS_ACCESS_KEY_ID = "AKIA6GBMGJQ5KY3EK5UY"
-AWS_SECRET_ACCESS_KEY = "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"
-AWS_REGION = "ap-south-1"
-S3_BUCKET = "thenewbackutes"
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
+AWS_REGION = ""
+S3_BUCKET = ""
 
 s3_client = boto3.client(
     's3',
