@@ -69,7 +69,7 @@ sudo systemctl enable fastapi.service
 ```bash
 sudo systemctl status fastapi.service
 ```
-### 5.Now status the nginx file and apache file
+### 5.After status the nginx file and apache file
 
 
 
