@@ -70,6 +70,17 @@ sudo systemctl enable fastapi.service
 sudo systemctl status fastapi.service
 ```
 ### 5.After status the nginx file and apache file
+### 6.You can used the dockerfile for deployment
+```bash
+docker build -t name_dockerfile
+```
+### 6.Run that dockerfile
+```bash
+docker run -p  80:80 name_dockerfile
+```
+
+
+
 
 
 
